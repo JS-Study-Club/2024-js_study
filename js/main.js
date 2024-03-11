@@ -1,4 +1,4 @@
- // 12기-> 11기 img change
+ // 13기-> 12기 img change
  function ChangeImg1() {
     var yun = (document.getElementById("yun").src =
       "../images/js_img/main/person/윤서.png");
@@ -13,7 +13,7 @@
     var su = (document.getElementById("su").src =
       "../images/js_img/main/person/수연.png");
   }
-  // 12기 -> 11기 text change
+  // 13기 -> 12기 text change
   function ChangeText1() {
     const yunT = document.getElementById("yunT");
     yunT.innerText = "김윤서";
@@ -48,7 +48,7 @@
       "뉴미디어디자인과\nai, ps, id, ae, sketch\n디자인을 합시다~";
   }
 
-  // 11기 -> 12기 img change
+  // 12기 -> 13기 img change
   function ChangeImg() {
     var yun = (document.getElementById("yun").src =
       "../images/js_img/main/person/한별.png");
@@ -63,7 +63,7 @@
     var su = (document.getElementById("su").src =
       "../images/js_img/main/person/서영.png");
   }
-  // 11기 -> 12기 text change
+  // 12기 -> 13기 text change
   function ChangeText() {
     const yunT = document.getElementById("yunT");
     yunT.innerText = "임한별";
@@ -99,23 +99,23 @@
   }
  
   function btnChange(num){
-      var button11 = document.querySelector(".btn11");
-      var button12 = document.querySelector (".btn12");
-      if(num==1){ //11기 버튼이 눌렸을 때
-            button11.style.backgroundColor = "#016BFF";
-            button11.style.color = "white";
-            // button11.style.borderColor = "#016BFF";
-
-            button12.style.backgroundColor ="white";
-            button12.style.color ="#016BFF"; 
-            // button12.style.borderColor = "#016BFF"; 
-      }
-      else{//12기 버튼이 눌렸을 때
+      var button12 = document.querySelector(".btn12");
+      var button13 = document.querySelector (".btn13");
+      if(num==1){ //12기 버튼이 눌렸을 때
             button12.style.backgroundColor = "#016BFF";
             button12.style.color = "white";
+            // button12.style.borderColor = "#016BFF";
+
+            button13.style.backgroundColor ="white";
+            button13.style.color ="#016BFF"; 
+            // button13.style.borderColor = "#016BFF"; 
+      }
+      else{//13기 버튼이 눌렸을 때
+            button13.style.backgroundColor = "#016BFF";
+            button13.style.color = "white";
             // button1.style.borderColor = "#016BFF";
-            button11.style.backgroundColor ="white";
-            button11.style.color ="#016BFF"; 
+            button12.style.backgroundColor ="white";
+            button12.style.color ="#016BFF"; 
             // button2.style.borderColor = "#016BFF"; 
       }
   }
