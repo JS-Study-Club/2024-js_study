@@ -99,7 +99,12 @@ display: inline-block;
     border:2px solid #016BFF;
     border-radius: 20px;
     color:#016BFF;
-
+}
+#btn24{
+    background-color:white;
+    border:2px solid #016BFF;
+    border-radius: 20px;
+    color:#016BFF;
 }
 .content>h1+button{
     margin-left:30px;
