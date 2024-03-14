@@ -101,6 +101,7 @@
   function btnChange(num){
       var button12 = document.querySelector(".btn12");
       var button13 = document.querySelector (".btn13");
+      var button14 = document.querySelector (".btn14");
       if(num==1){ //12기 버튼이 눌렸을 때
             button12.style.backgroundColor = "#016BFF";
             button12.style.color = "white";
