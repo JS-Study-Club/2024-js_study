@@ -97,6 +97,56 @@
     suTe.innerText =
       "뉴미디어디자인과\nAdobe Photoshop, Illustrator, After Effect, Figma\nJS study 모두 올해도 파이팅!!";
   }
+
+  // 13기 -> 14기 img change
+  function ChangeImg2() {
+    var yun = (document.getElementById("yun").src =
+      "../images/js_img/main/person/한별.png");
+    var yang = (document.getElementById("yang").src =
+      "../images/js_img/main/person/하은.png");
+    var park = (document.getElementById("park").src =
+      "../images/js_img/main/person/유정.png");
+    var im = (document.getElementById("im").src =
+      "../images/js_img/main/person/지안.png");
+    var shin = (document.getElementById("shin").src =
+      "../images/js_img/main/person/설화.png");
+    var su = (document.getElementById("su").src =
+      "../images/js_img/main/person/서영.png");
+  }
+  // 13기 -> 14기 text change
+  function ChangeText2() {
+    const yunT = document.getElementById("yunT");
+    yunT.innerText = "임한별";
+    const yangT = document.getElementById("yangT");
+    yangT.innerText = "김하은";
+    const parkT = document.getElementById("parkT");
+    parkT.innerText = "황유정";
+    const imT = document.getElementById("imT");
+    imT.innerText = "장지안";
+    const shinT = document.getElementById("shinT");
+    shinT.innerText = "이설화";
+    const suT = document.getElementById("suT");
+    suT.innerText = "황서영";
+
+    const yunTe = document.getElementById("yunTe");
+    yunTe.innerText =
+      "뉴미디어소프트웨어과\nJava, C, HTML, CSS, JavaScript\nJS study 파이팅~!";
+    const yangTe = document.getElementById("yangTe");
+    yangTe.innerText =
+      "뉴미디어웹솔루션과\nJava, C, HTML, CSS, JavaScript, Python\n즐거운 JS study!";
+    const parkTe = document.getElementById("parkTe");
+    parkTe.innerText =
+      "뉴미디어디자인과\nIllustraitor, Photoshop, AfterEffect\nJS study 동아리 최고!";
+    const imTe = document.getElementById("imTe");
+    imTe.innerText =
+      "뉴미디어소프트웨어과\nJava, C, HTML, CSS, Python, JavaScript\nJS study 짱~~!";
+    const shinTe = document.getElementById("shinTe");
+    shinTe.innerText =
+      "뉴미디어웹솔루션과\nJava, HTML, CSS, JavaScript\n기대되는 올해 JS study!";
+    const suTe = document.getElementById("suTe");
+    suTe.innerText =
+      "뉴미디어디자인과\nAdobe Photoshop, Illustrator, After Effect, Figma\nJS study 모두 올해도 파이팅!!";
+  }
  
   function btnChange(num){
       var button12 = document.querySelector(".btn12");
