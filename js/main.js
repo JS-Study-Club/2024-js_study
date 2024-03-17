@@ -101,32 +101,32 @@
   // 13기 -> 14기 img change
   function ChangeImg2() {
     var yun = (document.getElementById("yun").src =
-      "../images/js_img/main/person/한별.png");
+      "../images/js_img/main/person/지혜.jpg");
     var yang = (document.getElementById("yang").src =
-      "../images/js_img/main/person/하은.png");
+      "../images/js_img/main/person/성미.png");
     var park = (document.getElementById("park").src =
-      "../images/js_img/main/person/유정.png");
+      "../images/js_img/main/person/자연.png");
     var im = (document.getElementById("im").src =
-      "../images/js_img/main/person/지안.png");
+      "../images/js_img/main/person/지영.png");
     var shin = (document.getElementById("shin").src =
-      "../images/js_img/main/person/설화.png");
+      "../images/js_img/main/person/진현.png");
     var su = (document.getElementById("su").src =
-      "../images/js_img/main/person/서영.png");
+      "../images/js_img/main/person/세연.png");
   }
   // 13기 -> 14기 text change
   function ChangeText2() {
     const yunT = document.getElementById("yunT");
-    yunT.innerText = "임한별";
+    yunT.innerText = "김지혜";
     const yangT = document.getElementById("yangT");
-    yangT.innerText = "김하은";
+    yangT.innerText = "이성미";
     const parkT = document.getElementById("parkT");
-    parkT.innerText = "황유정";
+    parkT.innerText = "이자연";
     const imT = document.getElementById("imT");
-    imT.innerText = "장지안";
+    imT.innerText = "박지영";
     const shinT = document.getElementById("shinT");
-    shinT.innerText = "이설화";
+    shinT.innerText = "이진현";
     const suT = document.getElementById("suT");
-    suT.innerText = "황서영";
+    suT.innerText = "정세연";
 
     const yunTe = document.getElementById("yunTe");
     yunTe.innerText =
@@ -152,6 +152,7 @@
       var button12 = document.querySelector(".btn12");
       var button13 = document.querySelector (".btn13");
       var button14 = document.querySelector (".btn14");
+      var button15 = document.querySelector (".btn15");
       if(num==1){ //12기 버튼이 눌렸을 때
             button12.style.backgroundColor = "#016BFF";
             button12.style.color = "white";
@@ -161,12 +162,28 @@
             button13.style.color ="#016BFF"; 
             // button13.style.borderColor = "#016BFF"; 
       }
-      else{//13기 버튼이 눌렸을 때
+      else if(num==2){//13기 버튼이 눌렸을 때
             button13.style.backgroundColor = "#016BFF";
             button13.style.color = "white";
             // button1.style.borderColor = "#016BFF";
             button12.style.backgroundColor ="white";
             button12.style.color ="#016BFF"; 
             // button2.style.borderColor = "#016BFF"; 
+      }
+      else if(num==3){//14기 버튼이 눌렸을 때
+        button14.style.backgroundColor = "#016BFF";
+        button14.style.color = "white";
+        // button1.style.borderColor = "#016BFF";
+        button13.style.backgroundColor ="white";
+        button13.style.color ="#016BFF"; 
+        // button2.style.borderColor = "#016BFF"; 
+      }
+      else if(num==4){//15기 버튼이 눌렸을 때
+        button15.style.backgroundColor = "#016BFF";
+        button15.style.color = "white";
+        // button1.style.borderColor = "#016BFF";
+        button14.style.backgroundColor ="white";
+        button14.style.color ="#016BFF"; 
+        // button2.style.borderColor = "#016BFF"; 
       }
   }
