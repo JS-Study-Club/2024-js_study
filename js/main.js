@@ -130,22 +130,22 @@
 
     const yunTe = document.getElementById("yunTe");
     yunTe.innerText =
-      "뉴미디어소프트웨어과\nJava, C, HTML, CSS, JavaScript\nJS study 파이팅~!";
+      "뉴미디어소프트웨어과\nc언어, java, html, css, javascript\njs동아리가 최고지예~";
     const yangTe = document.getElementById("yangTe");
     yangTe.innerText =
-      "뉴미디어웹솔루션과\nJava, C, HTML, CSS, JavaScript, Python\n즐거운 JS study!";
+      "뉴미디어웹솔루션과\nhtml, css, c언어, java\n열심히 합시당~ ";
     const parkTe = document.getElementById("parkTe");
     parkTe.innerText =
-      "뉴미디어디자인과\nIllustraitor, Photoshop, AfterEffect\nJS study 동아리 최고!";
+      "뉴미디어디자인과\nIllustrator, Photoshop, Figma\n파이팅 JS! 멋지다 우리들~";
     const imTe = document.getElementById("imTe");
     imTe.innerText =
-      "뉴미디어소프트웨어과\nJava, C, HTML, CSS, Python, JavaScript\nJS study 짱~~!";
+      "뉴미디어소프트웨어과\njava, c, html, css, javascript, db\n/근본은 역시 JS -!";
     const shinTe = document.getElementById("shinTe");
     shinTe.innerText =
-      "뉴미디어웹솔루션과\nJava, HTML, CSS, JavaScript\n기대되는 올해 JS study!";
+      "뉴미디어웹솔루션과\nc언어, Java, HTML, CSS\nJS에 뼈를 묻자";
     const suTe = document.getElementById("suTe");
     suTe.innerText =
-      "뉴미디어디자인과\nAdobe Photoshop, Illustrator, After Effect, Figma\nJS study 모두 올해도 파이팅!!";
+      "뉴미디어디자인과\nIllustrator, Photoshop, Figma\njs에서 재밌게 디자인 해봐요!";
   }
  
   function btnChange(num){
