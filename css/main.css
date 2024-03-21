@@ -394,6 +394,7 @@ footer>button{  /*푸터버튼설정*/
    left :35%;
    bottom:65%;
    font-size:17px;
+   cursor: pointer;
 }
 .about{ /* about 위치 설정*/
    position: absolute;
